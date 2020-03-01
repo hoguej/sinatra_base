@@ -1,0 +1,8 @@
+Style/FrozenStringLiteralComment:
+  false
+
+Style/StringLiterals:
+  false
+
+Style/ClassCheck:
+  false:

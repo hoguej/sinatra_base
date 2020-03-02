@@ -5,4 +5,8 @@ Style/StringLiterals:
   false
 
 Style/ClassCheck:
-  false:
+  false
+
+Style/StringLiterals:
+  false
+

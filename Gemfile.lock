@@ -1,6 +1,11 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    activemodel (6.0.2.1)
+      activesupport (= 6.0.2.1)
+    activerecord (6.0.2.1)
+      activemodel (= 6.0.2.1)
+      activesupport (= 6.0.2.1)
     activesupport (6.0.2.1)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 0.7, < 2)
@@ -79,6 +84,9 @@ GEM
       rack (~> 2.0)
       rack-protection (= 2.0.8.1)
       tilt (~> 2.0)
+    sinatra-activerecord (2.0.14)
+      activerecord (>= 3.2)
+      sinatra (>= 1.0)
     solargraph (0.38.5)
       backport (~> 1.1)
       benchmark
@@ -93,6 +101,7 @@ GEM
       thor (~> 1.0)
       tilt (~> 2.0)
       yard (~> 0.9)
+    sqlite3 (1.4.2)
     test-unit (3.3.5)
       power_assert
     thor (1.0.1)
@@ -115,7 +124,9 @@ DEPENDENCIES
   rerun!
   rspec!
   sinatra!
+  sinatra-activerecord!
   solargraph!
+  sqlite3!
   test-unit!
 
 BUNDLED WITH

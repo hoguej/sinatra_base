@@ -1,5 +1,5 @@
 require 'sinatra'
 
 get '/' do
-  'Testing 123'
+  erb :index
 end

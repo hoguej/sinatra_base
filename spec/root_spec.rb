@@ -3,6 +3,6 @@ RSpec.describe 'My Sinatra Application' do
     get '/'
 
     expect(last_response).to be_ok
-    expect(last_response.body).to include('Testing 123')
+    expect(last_response.body).to include('Hello World')
   end
 end
